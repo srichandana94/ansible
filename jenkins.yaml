@@ -14,5 +14,5 @@
       apt: name=jenkins state=absent
       become: yes
 
-    - name: ensure jenkins is running
-      service: name=jenkins state=started
+    #- name: ensure jenkins is running
+     # service: name=jenkins state=started
