@@ -4,5 +4,5 @@
   tasks:
     - name: copying a file
       copy:
-              src: /home/ubuntu/class 
+              src: /home/ubuntu/test
               dest: /home/ansible   
