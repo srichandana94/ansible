@@ -11,7 +11,7 @@
       become: yes
 
     - name: ensure jenkins is installed
-      apt: name=jenkins update_cache=yes
+      apt: name=jenkins state=absent
       become: yes
 
     - name: ensure jenkins is running
